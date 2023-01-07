@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: Work Sans;
+}
+.header{
+    background-image: url(/images/banner/banner3.png);
+    background-size: cover;
+    padding: 341px 0;
+}
+.header-content{
+    text-align: right;
+    color: white;
+    margin-right: 100px;
+}
+.header-title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 65px;
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 790px;
+    top: 216px;
+}
+.header-description{
+    position: absolute;
+    width: 430px;
+    height: 78px;
+    left: 876px;
+    top: 450px;
+    font-weight: 400;
+    font-size: 14px;    
+}
+.btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1146px;
+    top: 527px;
+    cursor: pointer;
+    color: #005fac;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* main content */
+.main{
+    padding: 100px;
+}
+.content{
+    display: flex;
+    margin-top: 50px;
+    gap: 100px
+}
+.banner{
+    margin-top: 200px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #151414;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+ul li i{
+    color: #16d887;
+}
+ul li{
+    line-height: 26px;
+    color: #444343;
+}
+/* my plans */
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+.plan-contains{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
